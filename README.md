@@ -49,7 +49,7 @@ Durante el desarrollo se presentó un conflicto de dependencias al intentar inte
 
 ## 💻 Frontend simple para pruebas
 
-Se desarrolló una interfaz de prueba básica que simula un formulario de login:
+Se desarrolló una interfaz de prueba básica que simula un formulario de login, puede usarlo facilmente con vscode/liveserver extension
 
 ```html
 <!DOCTYPE html>
