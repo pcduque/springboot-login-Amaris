@@ -43,7 +43,7 @@ Se implementaron pruebas unitarias para verificar el correcto funcionamiento del
 
 ## ⚠️ Manejo de dependencias
 
-Durante el desarrollo se presentó un conflicto de dependencias al intentar integrar Feign Client para conectarse con la API externa. Como alternativa, se optó por desarrollar un **cliente frontend sencillo en HTML + JavaScript** que autentica contra la API de DummyJSON y, tras un login exitoso, registra la información en la tabla `login_log` a través del endpoint local.
+Durante el desarrollo se presentó un conflicto de dependencias al intentar integrar Feign Client para conectarse con la API externa. Como alternativa, y por motivos de tiempo, se optó por desarrollar un **cliente frontend sencillo en HTML + JavaScript** que autentica contra la API de DummyJSON y, tras un login exitoso, registra la información en la tabla `login_log` a través del endpoint local.
 
 ---
 
