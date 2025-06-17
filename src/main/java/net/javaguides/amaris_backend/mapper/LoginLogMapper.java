@@ -8,9 +8,9 @@ public class LoginLogMapper {
         return new LoginLogDto(
                 loginLog.getId(),
                 loginLog.getUserName(),
+                loginLog.getLoginTime(),
                 loginLog.getAccessToken(),
-                loginLog.getRefreshToken(),
-                loginLog.getLoginTime()
+                loginLog.getRefreshToken()
         );
     }
 
@@ -18,9 +18,9 @@ public class LoginLogMapper {
         return new LoginLog(
                 loginLogDto.getId(),
                 loginLogDto.getUserName(),
+                loginLogDto.getLoginTime(),
                 loginLogDto.getAccessToken(),
-                loginLogDto.getRefreshToken(),
-                loginLogDto.getAccessToken()
+                loginLogDto.getRefreshToken()
         );
     }
 }
