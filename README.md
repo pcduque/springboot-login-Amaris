@@ -37,7 +37,7 @@ El principio se respeta asegurando que cualquier implementación concreta (como 
 
 ## ✅ Testing
 
-Se implementaron pruebas unitarias para verificar el correcto funcionamiento del servicio `LoginLogService`, validando la inserción de registros en la base de datos.
+Se implementaron pruebas unitarias con JUNIT para verificar el correcto funcionamiento del servicio `LoginLogService`, validando la inserción de registros en la base de datos.
 
 ---
 
